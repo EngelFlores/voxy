@@ -1,0 +1,10 @@
+.columns-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.columns-container p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.list{
+  overflow-x: auto;
+}
+
+.list table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+}
+
+tr th:last-child {
+  cursor: pointer;
+}
