@@ -1,10 +1,11 @@
 import React from 'react';
 
-const SearchBar = ({onChange}) => {
+const SearchBar = ({ onChange }) => {
 
   return (
     <div>
-        <input onChange={onChange}/>
+      Search
+        <input data-testid="search-input" onChange={onChange} />
     </div>
   )
 }

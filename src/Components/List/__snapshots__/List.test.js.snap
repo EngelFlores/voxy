@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render right information in the list Sort users have studied the most 1`] = `
+<tbody
+  data-testid="columns"
+>
+  <tr>
+    <td
+      data-testid="email"
+    >
+      slegiona@prlog.org
+    </td>
+    <td
+      data-testid="first-name"
+    >
+      Susanna
+    </td>
+    <td
+      data-testid="last-name"
+    >
+      Legion
+    </td>
+    <td
+      data-testid="primary-group"
+    >
+      pretium
+    </td>
+    <td
+      data-testid="phone-number"
+    >
+      152-210-9118
+    </td>
+    <td
+      data-testid="hours-studied"
+    >
+      2857
+    </td>
+  </tr>
+  <tr>
+    <td
+      data-testid="email"
+    >
+      lfryattb@furl.net
+    </td>
+    <td
+      data-testid="first-name"
+    >
+      Letta
+    </td>
+    <td
+      data-testid="last-name"
+    >
+      Fryatt
+    </td>
+    <td
+      data-testid="primary-group"
+    >
+      imperdiet sapien
+    </td>
+    <td
+      data-testid="phone-number"
+    >
+      543-217-4959
+    </td>
+    <td
+      data-testid="hours-studied"
+    >
+      1795
+    </td>
+  </tr>
+</tbody>
+`;
