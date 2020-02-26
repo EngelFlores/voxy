@@ -5,7 +5,7 @@ import "./List.css"
 
 
 const List = (props) => {
-  const {data} = props
+  const { data } = props
   const [filteredList, setFilteredList] = useState(data);
 
   const mostStudied = () => {
@@ -28,9 +28,12 @@ const List = (props) => {
 
   return (
     <>
-      <SearchBar onChange={filterList}></SearchBar>
-      <button data-testid="most-studied" onClick={mostStudied}>Most Studied</button>
-      <button data-testid="least-studied" onClick={leastStudied}>Least Studied</button>
+      <div className="filters">
+        <SearchBar placeholder="Email or Group" onChange={filterList}></SearchBar>
+        Sort By:
+        <button data-testid="most-studied" onClick={mostStudied}>User That Most Studied</button>
+        <button data-testid="least-studied" onClick={leastStudied}>User That Least Studied</button>
+      </div>
       <div className="list">
         <table>
           <thead>

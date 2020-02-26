@@ -1,5 +1,6 @@
 .list{
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .list table {
@@ -9,4 +10,31 @@
 td, th {
   border: 1px solid rgba(102, 100, 100, 0.24);
 }
+
+.filters{
+  display: flex;
+  margin: 20px 0 20px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.filters input{
+  padding: 5px;
+}
+
+.filters button{
+  background-color: rgb(7, 71, 68);
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+@media (min-width: 750px) {
+  .list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 

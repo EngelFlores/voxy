@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SearchBar = ({ onChange }) => {
+const SearchBar = ({ onChange, placeholder }) => {
 
   return (
     <div>
-      Search
-        <input data-testid="search-input" onChange={onChange} />
+      <span>Search:</span>
+      <input placeholder={placeholder} data-testid="search-input" onChange={onChange} />
     </div>
   )
 }
